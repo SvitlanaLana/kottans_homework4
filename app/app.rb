@@ -21,7 +21,7 @@ class WelcomesController < WebConfig::Controller
 end
 
 Application = WebConfig::Router.new do
-  get '/example/:user', 'users#show'
-  get '/example/:user/:blog', 'blogs#new'
-  get '/example', 'welcomes#show'
+  get '/aqueous-atoll-31147/:user', 'users#show'
+  get '/aqueous-atoll-31147/:user/:blog', 'blogs#new'
+  get '/aqueous-atoll-31147', 'welcomes#show'
 end
