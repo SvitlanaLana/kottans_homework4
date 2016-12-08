@@ -1,5 +1,6 @@
-PATH
-  remote: lib/web_config
+GIT
+  remote: https://github.com/SvitlanaLana/web_config
+  revision: 76d24b57ec758e60b9c987eb351e9987cfb19b04
   specs:
     web_config (0.1.0)
       oj
@@ -9,7 +10,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    oj (2.17.5)
+    oj (2.18.0)
     rack (2.0.1)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
