@@ -3,5 +3,6 @@ source "https://rubygems.org"
 
 gem "rack"
 gem "rspec"
+gem "rack"
 
-gem "web_config", path: 'lib/web_config'
+gem "web_config", git: "https://github.com/SvitlanaLana/web_config"
